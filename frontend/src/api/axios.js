@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://127.0.0.1:8000",
+  baseURL: "https://task-manager-1-ohdy.onrender.com",
   headers: {
     "Content-Type": "application/json",
   },
@@ -11,10 +11,10 @@ const refreshAccessToken = async () => {
     const refresh = localStorage.getItem("refresh");
 
     const response = await axios.post(
-      "http://127.0.0.1:8000/api/token/refresh/",
+      "https://task-manager-1-ohdy.onrender.com/api/token/refresh/",
       {
         refresh,
-      }
+      },
     );
 
     localStorage.setItem("access", response.data.access);
@@ -43,7 +43,7 @@ api.interceptors.request.use(
   },
   (error) => {
     return Promise.reject(error);
-  }
+  },
 );
 
 api.interceptors.response.use(
@@ -52,10 +52,7 @@ api.interceptors.response.use(
   async (error) => {
     const originalRequest = error.config;
 
-    if (
-      error.response?.status === 401 &&
-      !originalRequest._retry
-    ) {
+    if (error.response?.status === 401 && !originalRequest._retry) {
       originalRequest._retry = true;
 
       const newAccessToken = await refreshAccessToken();
@@ -68,7 +65,7 @@ api.interceptors.response.use(
     }
 
     return Promise.reject(error);
-  }
+  },
 );
 
 export default api;
