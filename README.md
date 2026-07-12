@@ -1,6 +1,20 @@
 # 📋 Task Manager
 
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
+
+![Django](https://img.shields.io/badge/Django-6.0-092E20?logo=django&logoColor=white)
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white)
+
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
+
+![License](https://img.shields.io/badge/License-MIT-green)
+
 A full-stack Task Manager application built using **Django**, **Django REST Framework**, **React**, **PostgreSQL**, **JWT Authentication**, and **Tailwind CSS**.
+
+## 📸 Screenshots
+
+Screenshots will be added soon.
 
 ## 🚀 Features
 
@@ -101,6 +115,17 @@ npm run dev
 
 ---
 
+## 💡 Skills Demonstrated
+
+- Full Stack Development
+- REST API Development
+- JWT Authentication
+- CRUD Operations
+- React State Management
+- API Integration
+- PostgreSQL Database Design
+- Git & GitHub
+
 ## 🎯 Future Improvements
 
 - 🌙 Dark Mode
@@ -117,3 +142,7 @@ npm run dev
 **Unnati Singh**
 
 GitHub: **https://github.com/Unnati-singh-ai**
+
+## 🌐 Live Demo
+
+Coming Soon...
