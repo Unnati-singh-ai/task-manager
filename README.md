@@ -14,7 +14,27 @@ A full-stack Task Manager application built using **Django**, **Django REST Fram
 
 ## 📸 Screenshots
 
-Screenshots will be added soon.
+### 🔐 Login Page
+
+![Login Page](screenshots/login-page.png)
+
+---
+
+### 📝 Register Page
+
+![Register Page](screenshots/register-page.png)
+
+---
+
+### 📊 Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+### 📄 Pagination
+
+![Pagination](screenshots/pagination.png)
 
 ## 🚀 Features
 
