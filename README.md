@@ -164,5 +164,9 @@ npm run dev
 GitHub: **https://github.com/Unnati-singh-ai**
 
 ## 🌐 Live Demo
+### Frontend
+https://task-manager-xi-weld.vercel.app
 
-Coming Soon...
+### Backend API
+https://task-manager-1-ohdy.onrender.com
+
